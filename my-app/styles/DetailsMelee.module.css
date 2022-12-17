@@ -1,0 +1,74 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #cfcfcf;
+  border-bottom: solid 1px black;
+}
+
+.Info {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  height: 100%;
+}
+
+.UserInfo {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 44%;
+  height: auto;
+  text-align: center;
+}
+
+.UserInfo img {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.MeleeInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 56%;
+  height: 100%;
+  text-align: center;
+  margin-top: 100px;
+  gap: 20px;
+}
+
+.MeleeInfo form {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.MeleeInfo input {
+  width: 600px;
+  border: solid 1px gray;
+  height: 30px;
+}
+
+.MeleeInfo textarea {
+  width: 600px;
+  height: 300px;
+  border: solid 1px gray;
+}
+
+.MeleeInfo textarea:focus {
+    outline: none;
+}
+
+.MeleeInfo textarea:focus {
+  outline: none;
+}
+
+.MeleeInfo input:focus {
+  outline: none;
+}

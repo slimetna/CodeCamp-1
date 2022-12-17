@@ -1,0 +1,124 @@
+.AllContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Navbar {
+    width: 15%;
+}
+
+.Melee {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 700px;
+    height: auto;
+    background-color: rgb(155, 155, 155);
+    border: solid 1px black;
+}
+
+.Info h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+    1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+
+.Info form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Info input {
+    width: 400px;
+    height: 30px;
+    border: none;
+    text-align: center;
+}
+
+.Info button {
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: large;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.Info button:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.3s;
+}
+
+.Info input:focus {
+    outline: none;
+}
+
+.Border {
+    width: 100%;
+    height: 2px;
+    margin-bottom: 10px
+}
+
+.MultipleMelee {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Calendar {
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.ModifyMelee {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ModifyMelee select {
+    width: 300px;
+    height: 30px;
+    border: none;
+    text-align: center;
+}
+
+.ModifyMelee button {
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: large;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}

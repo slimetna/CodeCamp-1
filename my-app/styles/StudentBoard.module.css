@@ -1,0 +1,35 @@
+.contentTable {
+    margin-top: 20px;
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.contentTable thead tr {
+    background-color: gray;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.contentTable th,
+.contentTable td {
+    padding: 12px 15px;
+}
+
+.contentTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.contentTable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.contentTable tbody tr:last-of-type {
+    border-bottom: 2px solid gray;
+}
+

@@ -1,0 +1,13 @@
+.All {
+    width: 100%;
+    overflow: hidden;
+}
+
+.Navbar {
+    width: 10%;
+}
+
+.TagsBoard {
+    width: 90%;
+    margin-left: 12%;
+}

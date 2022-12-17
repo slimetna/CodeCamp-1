@@ -1,0 +1,26 @@
+.Card {
+    width: fit-content;
+    background-color: #b7b4cf56;
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: solid 2px white;
+    transition: 0.5s;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.Info {
+    font-size: 8px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Info h1 {
+    font-weight: 500;
+}
+
+.Card img {
+    width: 120px;
+}

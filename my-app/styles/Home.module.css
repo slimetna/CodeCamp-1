@@ -1,0 +1,58 @@
+.AllContent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Navbar {
+    width: 20%;
+}
+
+.MainContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.Trombi {
+    width: 80%;
+    margin-top: 5px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Selector select {
+    width: 60%;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border: none;
+    text-align: center;
+}
+
+.Selector {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Search {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Search input {
+    border: none;
+    width: 40%;
+    height: 30px;
+    background-color: rgb(230, 230, 230);
+}
+
+.Search input::placeholder {
+    color: black;
+}
+
+.Search input:focus {
+    outline: none;
+}

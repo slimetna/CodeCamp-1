@@ -1,0 +1,173 @@
+.Navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #d3d3d3;
+  text-align: left;
+}
+
+.Logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Comic", monospace;
+  background-color: #494949;
+  color: white;
+}
+
+.Logo h1 {
+  margin-left: 5px;
+  font-size: 25px;
+}
+
+.Logo svg {
+  position: relative;
+  top: 1px;
+  color: white;
+  margin-right: 5px;
+  font-size: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.Logo svg:hover {
+  color: rgb(97, 97, 97);
+  transition: 0.5s;
+}
+
+.Link {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 40px;
+}
+
+.Link a {
+  color: black;
+  text-decoration: none;
+}
+
+.Link svg {
+  position: relative;
+  top: 1.5px;
+  margin-right: 10px;
+}
+
+.User {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #494949;
+  color: white;
+}
+
+.UserInfo {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+.UserInfo h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.User img {
+  padding: 5px;
+  width: 50px;
+
+}
+
+.UserPic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Logout {
+  display: flex;
+  align-items: center;
+}
+
+.User a {
+  position: relative;
+  top: 5px;
+  right: 0;
+  color: white;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.Link a {
+  transition: 0.5s;
+}
+
+.Link a:hover {
+  color: rgb(97, 97, 97);
+  transition: 0.5s;
+}
+
+.MiniNavbar {
+  position: fixed;
+  left: 0;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-color: #d3d3d3;
+  text-align: center;
+  font-size: 20px;
+}
+
+.MiniNavbar a {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.MiniNavbar a:hover {
+  color: rgb(97, 97, 97);
+  transition: 0.5s;
+}
+
+.MenuButton {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.MenuButton svg {
+  transition: 0.5s;
+}
+
+.MenuButton svg:hover {
+  color: rgb(97, 97, 97);
+  transition: 0.5s;
+}
+
+.Icons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Icons svg {
+  cursor: pointer;
+}
+
+.Logout {
+  display: flex;
+  justify-content: center;
+  margin-right: 2px;
+  margin-bottom: 5px;
+}

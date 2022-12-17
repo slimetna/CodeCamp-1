@@ -1,0 +1,32 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.rbc-day-slot .rbc-events-container {
+  margin: 0 !important;
+}
+
+.rbc-toolbar-label {
+  text-transform: capitalize;
+}
+
+.rbc-button-link {
+  text-transform: capitalize;
+}
+
+.rbc-show-more {
+  font-size: 60% !important;
+}
+
+.rbc-event {
+  left: 0% !important;
+  width: 100% !important;
+}
+
+select:focus {
+  outline: none;
+}
